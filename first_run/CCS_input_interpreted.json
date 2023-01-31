@@ -1,0 +1,166 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "Co-Co": {
+                        "Rcut": 4.99993156,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.560940916214713
+                },
+                "Co-Li": {
+                        "Rcut": 5.207939023538966,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.4993643151281355
+                },
+                "Co-Mn": {
+                        "Rcut": 5.891440760126504,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.472221224328987
+                },
+                "Co-Ni": {
+                        "Rcut": 5.93679,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5002200000000006
+                },
+                "Co-O": {
+                        "Rcut": 5.997806807863144,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.6091999427194874
+                },
+                "Co-Ta": {
+                        "Rcut": 5.865472951368949,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.6743611537168044
+                },
+                "Li-Li": {
+                        "Rcut": 5.999285649505076,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.435039357935031
+                },
+                "Li-Mn": {
+                        "Rcut": 5.259380415077426,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5840980573485957
+                },
+                "Li-Ni": {
+                        "Rcut": 5.274850234523089,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.4399186889170226
+                },
+                "Li-O": {
+                        "Rcut": 5.999717852372299,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.6864350426750705
+                },
+                "Li-Ta": {
+                        "Rcut": 5.281538238846377,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.63542370831494
+                },
+                "Mn-Mn": {
+                        "Rcut": 4.99993156,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.560940916214713
+                },
+                "Mn-Ni": {
+                        "Rcut": 5.9601999999999995,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.4780700000000007
+                },
+                "Mn-O": {
+                        "Rcut": 5.999204059550349,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.5726856589900742
+                },
+                "Mn-Ta": {
+                        "Rcut": 5.859416598582214,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.61387976
+                },
+                "Ni-Ni": {
+                        "Rcut": 5.996003545640269,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.469150000000001
+                },
+                "Ni-O": {
+                        "Rcut": 5.999959928107854,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.5791554866151631
+                },
+                "Ni-Ta": {
+                        "Rcut": 5.929432730000002,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5143600000000004
+                },
+                "O-O": {
+                        "Rcut": 5.998379413577281,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.1733755583007888
+                },
+                "O-Ta": {
+                        "Rcut": 5.995541220338666,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.5921089132024742
+                },
+                "Ta-Ta": {
+                        "Rcut": 5.986350000000001,
+                        "Resolution": 0.5,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.583405201462217
+                }
+        },
+        "Onebody": [
+                "Co",
+                "Li",
+                "Mn",
+                "Ni",
+                "O",
+                "Ta"
+        ]
+}
