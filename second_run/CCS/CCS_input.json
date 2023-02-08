@@ -1,0 +1,68 @@
+{
+        "General": {
+                "interface": "CCS",
+                "merging": "True"
+        },
+        "Twobody": {
+                "Li-Ni": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                3.07
+                        ]
+                },
+                "Li-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.33
+                        ]
+                },
+                "Ni-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                1.91
+                        ]
+                },
+                "O-O": {
+                        "Rcut": 8.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.82
+                        ]
+                },
+                "Ni-Ni": {
+                        "Rcut": 8.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.9
+                        ]
+                },
+                "Li-Li": {
+                        "Rcut": 8.0,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                4.9
+                        ]
+                }
+        }
+}
