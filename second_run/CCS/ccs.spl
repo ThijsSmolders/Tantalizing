@@ -1470,3 +1470,12 @@ DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf', name='FreeSerif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
 DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
 DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thism292/anaconda3/envs/CCS_Buck/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: e2589873-d1f3-46cf-a2f3-ff68504e016e
+DEBUG:Comm:Current comms: []
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 301c899a-36f9-48d2-9724-6ef53a373fc7
+DEBUG:Comm:Current comms: []
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 5bc03b23-f3cf-4e7c-9796-8560f7ab5345
+DEBUG:Comm:Current comms: []
