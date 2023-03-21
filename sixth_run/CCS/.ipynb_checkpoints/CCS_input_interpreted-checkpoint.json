@@ -1,0 +1,83 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True",
+                "do_unconstrained_fit": "False"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "Li-Ni": {
+                        "Rcut": 5.179848455920413,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                3.07
+                        ],
+                        "Rmin": 2.7125136545563113
+                },
+                "Li-O": {
+                        "Rcut": 5.9999830884466645,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.33
+                        ],
+                        "Rmin": 1.9354068580583819
+                },
+                "Ni-O": {
+                        "Rcut": 5.9999862118723515,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                1.91
+                        ],
+                        "Rmin": 1.837577232546848
+                },
+                "O-O": {
+                        "Rcut": 5.951060704293475,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.82
+                        ],
+                        "Rmin": 2.424512168872591
+                },
+                "Ni-Ni": {
+                        "Rcut": 5.8840158982110164,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                2.9
+                        ],
+                        "Rmin": 2.7402706248021382
+                },
+                "Li-Li": {
+                        "Rcut": 5.990852676416383,
+                        "Resolution": 0.01,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "point",
+                        "search_points": [
+                                4.9
+                        ],
+                        "Rmin": 2.667425534266577
+                }
+        },
+        "Onebody": [
+                "Li",
+                "Ni",
+                "O"
+        ]
+}

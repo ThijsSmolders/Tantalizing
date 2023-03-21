@@ -1,0 +1,50 @@
+{
+        "General": {
+                "interface": "CCS",
+                "merging": "True"
+        },
+        "Twobody": {
+                "Xx-Xx": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono"
+                },
+                "O-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Ni-Ni": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Li-Li": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Ni-Ta": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Ta-Ta": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Li-Ta": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                }
+        }
+}

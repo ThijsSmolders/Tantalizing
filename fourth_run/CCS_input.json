@@ -1,0 +1,50 @@
+{
+        "General": {
+                "interface": "CCS",
+                "merging": "True"
+        },
+        "Twobody": {
+                "Li-Li": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Li-Ni": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Li-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.02,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "range",
+                        "range_center": 2.25,
+                        "range_width": 1
+                },
+                "Ni-Ni": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Ni-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.02,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "range",
+                        "range_center": 2.25,
+                        "range_width": 1
+                },
+                "O-O": {
+                        "Rcut": 6.0,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                }
+        }
+}

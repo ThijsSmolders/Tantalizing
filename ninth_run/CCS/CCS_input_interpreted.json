@@ -1,0 +1,88 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True",
+                "do_unconstrained_fit": "False"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "O-O": {
+                        "Rcut": 5.999794832608862,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.2951659607969024
+                },
+                "Ni-Ni": {
+                        "Rcut": 5.974891062401017,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.6017084398043
+                },
+                "Li-Li": {
+                        "Rcut": 5.99170130702048,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5246707207877734
+                },
+                "Ni-Ta": {
+                        "Rcut": 5.998304290997581,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.544757787178455
+                },
+                "Ta-Ta": {
+                        "Rcut": 5.459971013245889,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 3.022250641467451
+                },
+                "Li-Ta": {
+                        "Rcut": 5.900007023886967,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.7296199992643504
+                },
+                "Li-Ni": {
+                        "Rcut": 5.99534249719706,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5318878024530496
+                },
+                "Li-O": {
+                        "Rcut": 5.999979369456198,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 1.7739326443557708
+                },
+                "Ni-O": {
+                        "Rcut": 5.999974096076232,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 1.5817342742239595
+                },
+                "O-Ta": {
+                        "Rcut": 5.999920492133131,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 1.740587387232236
+                }
+        },
+        "Onebody": [
+                "Li",
+                "Ni",
+                "O",
+                "Ta"
+        ]
+}
