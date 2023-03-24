@@ -1,0 +1,65 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True",
+                "do_unconstrained_fit": "False"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "Li-Ni": {
+                        "Rcut": 5.998030095052159,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.5572290583137662
+                },
+                "Li-O": {
+                        "Rcut": 5.99999454067107,
+                        "Resolution": 0.05,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "range",
+                        "range_center": 2.29,
+                        "range_width": 0.1,
+                        "Rmin": 1.7954149835133737
+                },
+                "Ni-O": {
+                        "Rcut": 5.99999561364466,
+                        "Resolution": 0.05,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "search_mode": "range",
+                        "range_center": 2.22,
+                        "range_width": 0.5,
+                        "Rmin": 1.5383513347762288
+                },
+                "O-O": {
+                        "Rcut": 5.9998436757794495,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.3294149254963536
+                },
+                "Ni-Ni": {
+                        "Rcut": 5.999405496036603,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.474501261872056
+                },
+                "Li-Li": {
+                        "Rcut": 5.999300379979362,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.647425534266577
+                }
+        },
+        "Onebody": [
+                "Li",
+                "Ni",
+                "O"
+        ]
+}

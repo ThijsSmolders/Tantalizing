@@ -10,69 +10,63 @@
         "Twobody": {
                 "Li-Ni": {
                         "Rcut": 5.179848455920413,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                3.07
-                        ],
-                        "Rmin": 2.7125136545563113
+                        "search_mode": "range",
+                        "range_center": 3.07,
+                        "range_width": 0.1,
+                        "Rmin": 2.7075136545563114
                 },
                 "Li-O": {
                         "Rcut": 5.9999830884466645,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                2.33
-                        ],
-                        "Rmin": 1.9354068580583819
+                        "search_mode": "range",
+                        "range_center": 2.29,
+                        "range_width": 0.1,
+                        "Rmin": 1.9304068580583817
                 },
                 "Ni-O": {
                         "Rcut": 5.9999862118723515,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                1.91
-                        ],
-                        "Rmin": 1.837577232546848
+                        "search_mode": "range",
+                        "range_center": 1.89,
+                        "range_width": 0.1,
+                        "Rmin": 1.832577232546848
                 },
                 "O-O": {
                         "Rcut": 5.951060704293475,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                2.82
-                        ],
-                        "Rmin": 2.424512168872591
+                        "search_mode": "range",
+                        "range_center": 2.78,
+                        "range_width": 0.1,
+                        "Rmin": 2.419512168872591
                 },
                 "Ni-Ni": {
                         "Rcut": 5.8840158982110164,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                2.9
-                        ],
-                        "Rmin": 2.7402706248021382
+                        "search_mode": "range",
+                        "range_center": 2.9,
+                        "range_width": 0.1,
+                        "Rmin": 2.7352706248021383
                 },
                 "Li-Li": {
                         "Rcut": 5.990852676416383,
-                        "Resolution": 0.01,
+                        "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
-                        "search_mode": "point",
-                        "search_points": [
-                                4.9
-                        ],
-                        "Rmin": 2.667425534266577
+                        "search_mode": "range",
+                        "range_center": 4.82,
+                        "range_width": 0.1,
+                        "Rmin": 2.662425534266577
                 }
         },
         "Onebody": [

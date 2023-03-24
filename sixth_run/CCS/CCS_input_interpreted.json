@@ -1,0 +1,59 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True",
+                "do_unconstrained_fit": "False"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "O-O": {
+                        "Rcut": 5.999899834383505,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.304512168872591
+                },
+                "Ni-Ni": {
+                        "Rcut": 5.945003066492061,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.3042603848496768
+                },
+                "Li-Li": {
+                        "Rcut": 5.990852676416383,
+                        "Resolution": 0.25,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.547425534266577
+                },
+                "Li-Ni": {
+                        "Rcut": 5.927093143135175,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 2.4629717501162958
+                },
+                "Li-O": {
+                        "Rcut": 5.9999830884466645,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 1.8154068580583818
+                },
+                "Ni-O": {
+                        "Rcut": 5.9999862118723515,
+                        "Resolution": 0.25,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 1.3702324605838436
+                }
+        },
+        "Onebody": [
+                "Li",
+                "Ni",
+                "O"
+        ]
+}
