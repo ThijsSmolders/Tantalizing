@@ -1,0 +1,39 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True",
+                "do_unconstrained_fit": "True",
+                "do_ridge_regression": "False",
+                "iterative_fit": "False"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "Ni-Ni": {
+                        "Rcut": 5.0,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.4487210055778394
+                },
+                "O-O": {
+                        "Rcut": 5.0,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 1.5420734805122065
+                },
+                "Ni-O": {
+                        "Rcut": 5.0,
+                        "Resolution": 0.1,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 0.8148156161864791
+                }
+        },
+        "Onebody": [
+                "Ni",
+                "O"
+        ]
+}
