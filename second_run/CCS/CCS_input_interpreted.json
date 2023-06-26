@@ -3,7 +3,9 @@
                 "interface": "CCS",
                 "ewald_scaling": 1.0,
                 "merging": "True",
-                "do_unconstrained_fit": "False"
+                "do_unconstrained_fit": "False",
+                "do_ridge_regression": "False",
+                "iterative_fit": "False"
         },
         "Train-set": "structures.json",
         "Test-set": "structures.json",
@@ -16,27 +18,27 @@
                         "search_mode": "range",
                         "range_center": 3.07,
                         "range_width": 0.1,
-                        "Rmin": 2.7075136545563114
+                        "Rmin": 2.7058409478097207
                 },
                 "Li-O": {
-                        "Rcut": 5.9999830884466645,
+                        "Rcut": 5.99999454067107,
                         "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
                         "search_mode": "range",
                         "range_center": 2.29,
                         "range_width": 0.1,
-                        "Rmin": 1.9304068580583817
+                        "Rmin": 1.929302433789016
                 },
                 "Ni-O": {
-                        "Rcut": 5.9999862118723515,
+                        "Rcut": 5.999989281228799,
                         "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
                         "search_mode": "range",
                         "range_center": 1.89,
                         "range_width": 0.1,
-                        "Rmin": 1.832577232546848
+                        "Rmin": 1.8301614183000356
                 },
                 "O-O": {
                         "Rcut": 5.951060704293475,
@@ -46,7 +48,7 @@
                         "search_mode": "range",
                         "range_center": 2.78,
                         "range_width": 0.1,
-                        "Rmin": 2.419512168872591
+                        "Rmin": 2.4192265692191
                 },
                 "Ni-Ni": {
                         "Rcut": 5.8840158982110164,
@@ -59,7 +61,7 @@
                         "Rmin": 2.7352706248021383
                 },
                 "Li-Li": {
-                        "Rcut": 5.990852676416383,
+                        "Rcut": 5.999300379979362,
                         "Resolution": 0.02,
                         "Swtype": "sw",
                         "const_type": "Mono",
